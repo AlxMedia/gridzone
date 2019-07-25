@@ -1,0 +1,267 @@
+.entry pre { background-image: url(img/pre-dark.png); border-color: #333; }
+
+a,
+a:hover { color: #fff; }
+
+body { background: #222; }
+.themeform.searchform div input { background: #333; }
+.themeform.searchform div input { border-width: 1px; }
+.search-expand { background: #262626; }
+#wrapper { border-top-color: #333; }
+#header,
+.site-title { border-bottom-color: #3a3a3a; }
+
+.entry a { box-shadow: 0 1px 0 #555; }
+.entry a:hover { box-shadow: 0 1px 0 #888; }
+
+#footer,
+#footer-bottom #back-to-top,
+#footer-widgets { border-color: #333; }
+
+.toggle-search { color: #fff; border-color: #262626; }
+.toggle-search:hover { color: #eee; }
+.toggle-search.active { background: #262626; color: #eee; }
+
+.author-bio,
+#commentform { background: #262626; }
+.sharrre-container { border-color: #262626; }
+.front-widgets { border-color: #333; }
+
+#header,
+.s2,
+.toggle-search,
+.masonry-item .masonry-inner,
+.post-wrapper,
+.sidebar .widget,
+.pagination ul li a { background: #333; }
+
+.entry-header .entry-meta .entry-category a,
+.entry hr { background: #444; }
+
+.entry .wp-block-file a.wp-block-file__button,
+.entry .wp-block-button a { background: #444; box-shadow: none; }
+
+body,
+.author-bio .bio-name { color: #ccc; }
+
+.entry a,
+h1, h2, h3, h4, h5, h6,
+.site-title a,
+#profile-name,
+.masonry-item .entry-title a,
+#footer-bottom #back-to-top:hover,
+#footer-bottom a:hover,
+.entry .wp-block-pullquote blockquote p,
+.entry blockquote p { color: #fff; }
+
+#footer-bottom #back-to-top,
+#footer-bottom a { color: rgba(255,255,255,0.7); }
+
+#footer-bottom #copyright, 
+#footer-bottom #credit,
+.wp-block-image figcaption,
+.author-bio .bio-desc { color: rgba(255,255,255,0.5); }
+
+.s2 .social-links li:before { background: rgba(0,0,0,0.15); }
+.s2 .social-links .social-tooltip { color: rgba(255,255,255,0.7); }
+.s2 .social-links .social-tooltip:hover { background: rgba(0,0,0,0.1); box-shadow: none; color: #fff; }
+.s2 .social-links .social-tooltip:active { background: rgba(0,0,0,0.15); box-shadow: none; color: #fff; }
+.s2 .social-links .social-tooltip:hover:after { background: #fff; color: #333; }
+.s2 .social-links .social-tooltip:hover:before { border-color: transparent #fff;  }
+
+#nav-header .nav-toggle { color: #fff; }
+@media only screen and (min-width: 720px) {
+	#nav-header .nav > li > a { color: rgba(255,255,255,0.7); }	
+	#nav-header .nav > li > a:hover, 
+	#nav-header .nav > li:hover > a { background: transparent; color: #fff; }
+	#nav-header .nav > li.current_page_item > a, 
+	#nav-header .nav > li.current-menu-item > a,
+	#nav-header .nav > li.current-menu-ancestor > a,
+	#nav-header .nav > li.current-post-parent > a { color: #fff; }
+}
+@media only screen and (max-width: 719px) {
+	.toggle-search,
+	.toggle-search.active { background: transparent; }
+	#nav-header.nav-container { background: #333; }
+	#nav-header .nav li a { color: #999; border-bottom: 1px solid #3a3a3a; }	
+	#nav-header .nav li > a:hover,
+	#nav-header .nav li.current_page_item > a, 
+	#nav-header .nav li.current-menu-item > a,
+	#nav-header .nav li.current-post-parent > a { background: transparent; color: #fff; }
+	
+}
+
+.entry table tr.alt { background: #262626; }
+.entry table td { border: 1px solid #222; }
+.entry table th { border: 1px solid #222; }
+
+.wp-block-calendar a,
+.wp-block-calendar a:hover { box-shadow: none; }
+.wp-block-calendar table caption, 
+.wp-block-calendar table tbody,
+.wp-block-calendar tfoot a { color: #999; }
+.wp-block-calendar table th { background: transparent; }
+
+.sharrre .count { background: #262626; }
+.sharrre .count:after { border-left-color: #262626; }
+.sharrre .box:hover { background: #262626!important; }
+.sharrre .box:hover .count { color: #fff!important; }
+
+.post-nav { background: #262626; }
+.post-nav li i { color: #999; }
+.post-nav li a strong { color: #666;  }
+.post-nav li a span { color: #999; }
+.post-nav li a:hover span,
+.post-nav li a:hover i { color: #fff; }
+.post-nav li.next a { border-left: 1px solid #333; }
+
+.themeform label { color: #ccc; }
+.themeform input[type="search"],
+.themeform input[type="text"], 
+.themeform input[type="password"], 
+.themeform input[type="email"], 
+.themeform input[type="url"],
+.themeform input[type="tel"],
+.themeform input[type="number"],
+.themeform select,
+.themeform textarea { background: #222; border: 2px solid #333; color: #999; }
+.themeform input[type="search"]:focus,
+.themeform input[type="text"]:focus, 
+.themeform input[type="password"]:focus, 
+.themeform input[type="email"]:focus, 
+.themeform input[type="url"]:focus,
+.themeform input[type="tel"]:focus,
+.themeform input[type="number"]:focus, 
+.themeform select:focus,
+.themeform textarea:focus { border-color: #444; color: #ccc; }
+.themeform label .required { color: #ccc; }
+.themeform input[type="button"],
+.themeform input[type="reset"],
+.themeform input[type="submit"],
+.themeform button[type="button"],
+.themeform button[type="reset"],
+.themeform button[type="submit"] { background: #444; color: #fff; }
+.themeform input[type="button"]:hover,
+.themeform input[type="reset"]:hover,
+.themeform input[type="submit"]:hover,
+.themeform button[type="button"]:hover,
+.themeform button[type="reset"]:hover,
+.themeform button[type="submit"]:hover { background: #555; }
+
+.comment-tabs li a { background: #262626; }
+.comment-tabs li span { background: #333; }
+.comment-tabs li a:hover,
+.comment-tabs li.active a { color: #fff; }
+
+.commentlist .fn, 
+.pinglist .ping-link,
+.commentlist .fn a { color: #fff; }
+.commentlist .comment-meta a, 
+.pinglist .ping-meta,
+.commentlist .comment-meta:before, 
+.pinglist .ping-meta:before,
+.commentlist .reply a { color: #777; }
+.commentlist .comment-body p,
+.commentlist .reply a:hover { color: #bbb; }
+ 
+.wp-pagenavi span.pages { color: #666; }
+.wp-pagenavi a { background: #333; color: #ccc; }
+.wp-pagenavi a:hover,
+.wp-pagenavi a:active,
+.wp-pagenavi span.current { background: #444; color: #fff; }
+
+
+/* ------------------------------------------------------------------------- *
+ *  Dark Widgets
+/* ------------------------------------------------------------------------- */
+.widget { color: rgba(255,255,255,0.5); }
+.widget a { color: rgba(255,255,255,0.6); }
+.widget a:hover { color: #fff; }
+.widget > h3,
+.widget > h3 a,
+.widget > h3 a:hover { color: #fff; }
+.widget select { background: rgba(0,0,0,0.25); border-color: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); }
+
+/*  widgets : icons
+/* ------------------------------------ */
+.widget > ul li:before,
+.widget > ul li a:before,
+.widget > div > ul li a:before  { color: rgba(255,255,255,0.6); opacity: 0.5; }
+.widget_calendar caption:before,
+.widget > ul li a:hover:before { color: #fff; }
+
+/*  widgets : common
+/* ------------------------------------ */
+.widget_archive ul li, 
+.widget_categories ul li, 
+.widget_links ul li, 
+.widget_meta ul li, 
+.widget_recent_comments ul li, 
+.widget_recent_entries ul li,
+.widget_rss ul li,
+.widget_pages ul li a,
+.widget_nav_menu ul li a,
+.alx-tab li,
+.alx-posts li,
+.widget_calendar th, 
+.widget_calendar td { border-color: #333; }
+
+.widget_archive ul li,
+.widget_categories ul li,
+.widget_links ul li,
+.widget_recent_comments ul li,
+.widget_recent_entries ul li { color: rgba(255,255,255,0.6); }
+
+/*  widget : pages / custom menu
+/* ------------------------------------ */
+
+/*  widget : rss
+/* ------------------------------------ */
+.widget_rss ul li a { color: #fff; }
+.widget_rss ul li span.rss-date { color: rgba(255,255,255,0.8); }
+.widget_rss ul li cite { color: rgba(255,255,255,0.5); }
+
+/*  widget : search
+/* ------------------------------------ */
+.widget_search input.search { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.1); }
+.widget_search input.search:focus { color: rgba(255,255,255,0.9); }
+
+/*  widget : calendar
+/* ------------------------------------ */
+.widget_calendar a:hover { color: rgba(255,255,255,0.8)!important; }
+.widget_calendar a { color: #fff; }
+.widget_calendar thead { background: rgba(0,0,0,0.1); color: #ccc; -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1); box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1); }
+.widget_calendar caption { background: rgba(255,255,255,0.2); }
+.widget_calendar th, 
+.widget_calendar td { border-color: rgba(255,255,255,0.1);  }
+
+/*  custom widget : alxtabs / alxposts
+/* ------------------------------------ */
+.alx-tabs-nav li a { border-color: rgba(255,255,255,0.1); }
+.alx-tabs-nav li.active a { color: #fff; border-bottom-color: #fff; }
+
+.alx-tab .tab-item-category a,
+.alx-posts .post-item-category a,
+.alx-tab li:hover .tab-item-title a,
+.alx-tab li:hover .tab-item-comment a,
+.alx-posts li:hover .post-item-title a { color: #fff; }
+.alx-tab .tab-item-category a:hover,
+.alx-posts .post-item-category a:hover { color: rgba(255,255,255,0.8)!important; }
+
+.alx-tab .tab-item-date, 
+.alx-tab .tab-item-name, 
+.alx-posts .post-item-date { color: rgba(255,255,255,0.5); }
+
+
+.alx-tab .tab-item-title a, 
+.alx-tab .tab-item-comment a, 
+.alx-posts .post-item-title a { color: rgba(255,255,255,0.7); }
+
+@media only screen and (max-width: 719px) {
+	.s2 .social-links { background: #333; border-bottom-color: #222; }
+	.post-nav li.previous { border-top: 1px solid #333; } 
+}
+
+@media only screen and (max-width: 479px) {
+	.sidebar .widget { border-top-color: #222; }
+}
