@@ -680,10 +680,6 @@ if ( ! function_exists( 'gridzone_plugins' ) ) {
 				array(
 					'name' => esc_html__( 'WP-PageNavi', 'gridzone' ),
 					'slug' => 'wp-pagenavi',
-				),
-				array(
-					'name' => esc_html__( 'Responsive Lightbox', 'gridzone' ),
-					'slug' => 'responsive-lightbox',
 				)
 			);	
 			tgmpa( $plugins );
