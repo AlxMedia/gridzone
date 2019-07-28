@@ -48,7 +48,7 @@
 		
 		<div id="footer-bottom">
 			
-			<a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+			<a id="back-to-top" href="#"><i class="fas fa-angle-up"></i></a>
 				
 			<div class="pad group">
 				

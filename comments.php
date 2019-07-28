@@ -7,8 +7,8 @@
 		<h3 class="heading"><?php comments_number( esc_html__( 'No Responses', 'gridzone' ), esc_html__( '1 Response', 'gridzone' ), esc_html__( '% Responses', 'gridzone' ) ); ?></h3>
 	
 		<ul class="comment-tabs group">
-			<li class="active"><a href="#commentlist-container"><i class="fa fa-comments-o"></i><?php esc_html_e( 'Comments', 'gridzone' ); ?><span><?php echo count($wp_query->comments_by_type['comment']); ?></span></a></li>
-			<li><a href="#pinglist-container"><i class="fa fa-share"></i><?php esc_html_e( 'Pingbacks', 'gridzone' ); ?><span><?php echo count($wp_query->comments_by_type['pings']); ?></span></a></li>
+			<li class="active"><a href="#commentlist-container"><i class="far fa-comments"></i><?php esc_html_e( 'Comments', 'gridzone' ); ?><span><?php echo count($wp_query->comments_by_type['comment']); ?></span></a></li>
+			<li><a href="#pinglist-container"><i class="fas fa-share"></i><?php esc_html_e( 'Pingbacks', 'gridzone' ); ?><span><?php echo count($wp_query->comments_by_type['pings']); ?></span></a></li>
 		</ul>
 
 		<?php if ( ! empty( $comments_by_type['comment'] ) ) { ?>

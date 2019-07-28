@@ -29,7 +29,7 @@
 				
 				<?php if ( has_nav_menu('header') ): ?>
 					<nav class="nav-container group" id="nav-header">
-						<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+						<div class="nav-toggle"><i class="fas fa-bars"></i></div>
 						<div class="nav-text"><!-- put your mobile menu text here --></div>
 						<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'header','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>				
 					</nav><!--/#nav-header-->
@@ -37,7 +37,7 @@
 				
 				<?php if ( has_nav_menu('mobile') ): ?>
 					<nav class="nav-container group" id="nav-mobile">
-						<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+						<div class="nav-toggle"><i class="fas fa-bars"></i></div>
 						<div class="nav-text"><!-- put your mobile menu text here --></div>
 						<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'mobile','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>									
 					</nav><!--/#nav-mobile-->
@@ -50,7 +50,7 @@
 	
 	<div class="sidebar s2 group">
 		<?php if ( get_theme_mod( 'header-search', 'on' ) == 'on' ): ?>
-			<div class="toggle-search"><i class="fa fa-search"></i></div>
+			<div class="toggle-search"><i class="fas fa-search"></i></div>
 			<div class="search-expand">
 				<div class="search-expand-inner">
 					<?php get_search_form(); ?>

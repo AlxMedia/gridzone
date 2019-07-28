@@ -12,11 +12,11 @@
 				<header class="entry-header group">
 					<h1 class="entry-title"><?php the_title(); ?></h1>
 					<div class="entry-meta">
-						<span class="entry-date"><i class="fa fa-calendar-o"></i><?php the_time( get_option('date_format') ); ?></span>
+						<span class="entry-date"><i class="far fa-calendar"></i><?php the_time( get_option('date_format') ); ?></span>
 						<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
-							<span class="entry-comments"><i class="fa fa-comment-o"></i><a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></span>
+							<span class="entry-comments"><i class="far fa-comment"></i><a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></span>
 						<?php endif; ?>
-						<span class="entry-author"><i class="fa fa-user-o"></i><?php the_author_posts_link(); ?></span>
+						<span class="entry-author"><i class="far fa-user"></i><?php the_author_posts_link(); ?></span>
 						<span class="entry-category"><?php the_category(' '); ?></span>
 					</div>
 				</header>
