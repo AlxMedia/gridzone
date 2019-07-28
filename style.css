@@ -1,7 +1,7 @@
 /*
 Theme Name: Gridzone
 Theme URI: http://alx.media/themes/gridzone/
-Version: 1.0.7
+Version: 1.0.8
 Description: <a href="http://alx.media/themes/gridzone/">Gridzone</a> is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all.
 Author: Alexander Agnarson
 Author URI: http://alx.media
@@ -99,6 +99,11 @@ strong { font-weight: 600; }
 .sharrre-header .fa-linkedin-square:before { content: "\f08c"; }
 .sharrre-header .count .fa:before { font-family: "Font Awesome 5 Free"; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; }
 .sharrre-header .count .fa-plus:before { content: "\f067"; }
+.alx-tabs-nav i:before { font-family: "Font Awesome 5 Free"; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; }
+.alx-tabs-nav .fa-clock-o:before { content: "\f017"; }
+.alx-tabs-nav .fa-star:before { content: "\f005"; }
+.alx-tabs-nav .fa-comments-o:before { content: "\f086"; }
+.alx-tabs-nav .fa-tags:before { content: "\f02c"; }
 
 /*  base : fonts
 /* ------------------------------------ */
@@ -646,6 +651,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
     -ms-transform: rotate(-45deg);
      -o-transform: rotate(-45deg);
         transform: rotate(-45deg); }
+.thumb-icon .fa-play { margin: -1px 0 0 2px; }
 .thumb-icon.small { width: 24px; height: 24px; position: absolute; bottom: 50%; left: 50%; margin: 0 0 -12px -12px;
 -webkit-border-radius: 3px; border-radius: 3px; }
 .thumb-icon.small i { font-size: 12px; line-height: 16px; padding: 5px 0; }

@@ -2,7 +2,7 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.0
-Version: 1.0.7
+Version: 1.0.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -86,6 +86,9 @@ Content images (left to right, top to bottom)
 9. https://stocksnap.io/photo/CLCT9SWF9E - CC0 1.0 Universal (CC0 1.0) 
 
 == Changelog ==
+
+= 1.0.8 - 2019-07-28 =
+* Fixed missing icons for alx tabs widget
 
 = 1.0.7 - 2019-07-28 =
 * Updated to Font Awesome 5 Free (5.9.0)
