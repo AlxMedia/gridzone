@@ -97,9 +97,9 @@ strong { font-weight: 600; }
 .sharrre-header .fa-facebook-square:before { content: "\f082"; }
 .sharrre-header .fa-pinterest:before { content: "\f0d2"; }
 .sharrre-header .fa-linkedin-square:before { content: "\f08c"; }
-.sharrre-header .count .fa:before { font-family: "Font Awesome 5 Free"; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; }
+.sharrre-header .count .fa:before { font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; }
 .sharrre-header .count .fa-plus:before { content: "\f067"; }
-.alx-tabs-nav i:before { font-family: "Font Awesome 5 Free"; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; }
+.alx-tabs-nav i:before { font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; }
 .alx-tabs-nav .fa-clock-o:before { content: "\f017"; }
 .alx-tabs-nav .fa-star:before { content: "\f005"; }
 .alx-tabs-nav .fa-comments-o:before { content: "\f086"; }
