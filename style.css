@@ -89,7 +89,7 @@ strong { font-weight: 600; }
 
 /*  base : font awesome square size
 /* ------------------------------------ */
-.fa { width: 1em; text-align: center; }
+.fa, .fab, .fal, .far, .fas { width: 1em; text-align: center; }
 
 /* temporary font awesome 5 fix for alx-extensions plugin */
 .sharrre-header .share .fa:before,
