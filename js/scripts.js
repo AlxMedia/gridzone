@@ -111,7 +111,7 @@ jQuery(document).ready(function($) {
 		debugmode:      false,
 		pushup:         ''
 	});
-	
+
 /*  Masonry
 /* ------------------------------------ */
 	$('.masonry').imagesLoaded( function() {
@@ -121,6 +121,18 @@ jQuery(document).ready(function($) {
 			itemSelector: '.masonry-item'
 		});
 		
+	});
+
+/*  Jetpack infinite scroll
+/* ------------------------------------ */
+	var infiniteCount = 2;
+	$( document.body ).on( 'post-load', function () {
+		var elements = $('.infinite-wrap.infinite-view-' + infiniteCount + ' article');		
+		
+		$('#masonry').imagesLoaded().done( function(){
+			$('#masonry').masonry( 'appended', elements );
+			infiniteCount++;
+		});
 	});
 	
 /*  Hide on scroll down

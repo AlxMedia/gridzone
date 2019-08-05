@@ -1,7 +1,7 @@
 /*
 Theme Name: Gridzone
 Theme URI: http://alx.media/themes/gridzone/
-Version: 1.0.9
+Version: 1.1.0
 Description: <a href="http://alx.media/themes/gridzone/">Gridzone</a> is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all.
 Author: Alexander Agnarson
 Author URI: http://alx.media
@@ -1522,6 +1522,14 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .wpcf7 select,
 .wpcf7 textarea { background: #f2f2f2; }
 
+/*  plugin : jetpack infinite scroll
+/* ------------------------------------ */
+.infinite-scroll .infinite-wrap { }
+.infinite-scroll #infinite-handle { position: absolute; bottom: -100px; width: 100%; text-align: center; }
+.infinite-scroll #infinite-handle span { background: #fff; display: inline-block!important; box-shadow: 0 0 10px rgba(0,0,0,0.05); font-size: 18px; color: #333; font-weight: 600; padding: 20px 26px; border-radius: 10px; }
+.infinite-scroll #infinite-handle span:before { font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; content: "\f067"; margin-right: 10px; }
+.infinite-scroll .content { padding-bottom: 160px; }
+.infinite-scroll .pagination { display: none; }
 
 /* ------------------------------------------------------------------------- *
  *  Slick Carousel

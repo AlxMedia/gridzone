@@ -66,6 +66,13 @@ if ( ! function_exists( 'gridzone_setup' ) ) {
 		// Declare WooCommerce support
 		add_theme_support( 'woocommerce' );
 		
+		// Enable Jetpack infinite scroll
+		add_theme_support( 'infinite-scroll', array(
+			'type' 		=> 'click',
+			'container'	=> 'masonry',
+			'wrapper'	=> true,
+		) );
+		
 		// Enable support for selective refresh of widgets in customizer
 		add_theme_support( 'customize-selective-refresh-widgets' );
 		

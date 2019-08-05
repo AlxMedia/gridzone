@@ -153,7 +153,8 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 .comment-tabs li a,
 #commentform,
 .alx-tab img,
-.alx-posts img { border-radius: '.esc_attr( get_theme_mod('border-radius') ).'px; }
+.alx-posts img,
+.infinite-scroll #infinite-handle span { border-radius: '.esc_attr( get_theme_mod('border-radius') ).'px; }
 .masonry-item img { border-radius: '.esc_attr( get_theme_mod('border-radius') ).'px '.esc_attr( get_theme_mod('border-radius') ).'px 0 0; }
 .toggle-search.active,
 .col-2cl .sidebar .widget { border-radius:  '.esc_attr( get_theme_mod('border-radius') ).'px 0 0 '.esc_attr( get_theme_mod('border-radius') ).'px; }
