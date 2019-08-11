@@ -2,14 +2,14 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.0
-Version: 1.1.0
+Version: 1.1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
 
 == Description ==
 
-Gridzone is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all.
+Gridzone is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Gridzone
 
 == Installation ==
 
@@ -86,6 +86,9 @@ Content images (left to right, top to bottom)
 9. https://stocksnap.io/photo/CLCT9SWF9E - CC0 1.0 Universal (CC0 1.0) 
 
 == Changelog ==
+
+= 1.1.1 - 2019-08-11 =
+* Updated theme description
 
 = 1.1.0 - 2019-08-05 =
 * Fixed missing dark theme elements
