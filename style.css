@@ -1,7 +1,7 @@
 /*
 Theme Name: Gridzone
 Theme URI: http://alx.media/themes/gridzone/
-Version: 1.1.1
+Version: 1.1.2
 Description: <a href="http://alx.media/themes/gridzone/">Gridzone</a> is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Gridzone
 Author: Alexander Agnarson
 Author URI: http://alx.media
@@ -745,9 +745,9 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Section: Header
 /* ------------------------------------------------------------------------- */
 #header { background: #fff; position: relative; z-index: 99; padding: 0 40px; border-bottom: 1px solid #e5e5e5; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
-.sticky-element-sticky #header {  }
+#header-sticky.sticky-element-sticky { pointer-events: none; }
 @media only screen and (min-width: 1025px) {
-	#header { -webkit-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+	#header { pointer-events: auto; -webkit-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 	#header.hide-scroll { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
 }
 
