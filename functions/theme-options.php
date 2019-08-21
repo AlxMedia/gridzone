@@ -652,6 +652,30 @@ Kirki::add_field( 'gridzone_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Styling: Header Color
+Kirki::add_field( 'gridzone_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-header',
+	'label'			=> esc_html__( 'Header Color', 'gridzone' ),
+	'section'		=> 'styling',
+	'default'		=> '#ffffff',
+) );
+// Styling: Social Sidebar Color
+Kirki::add_field( 'gridzone_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-social-sidebar',
+	'label'			=> esc_html__( 'Social Sidebar Color', 'gridzone' ),
+	'section'		=> 'styling',
+	'default'		=> '#ffffff',
+) );
+// Styling: Post Item Color
+Kirki::add_field( 'gridzone_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-post-item',
+	'label'			=> esc_html__( 'Post Item Color', 'gridzone' ),
+	'section'		=> 'styling',
+	'default'		=> '#ffffff',
+) );
 // Styling: Link Color
 Kirki::add_field( 'gridzone_theme', array(
 	'type'			=> 'color',
@@ -659,6 +683,14 @@ Kirki::add_field( 'gridzone_theme', array(
 	'label'			=> esc_html__( 'Link Color', 'gridzone' ),
 	'section'		=> 'styling',
 	'default'		=> '#000000',
+) );
+// Styling: Background Color
+Kirki::add_field( 'gridzone_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-background',
+	'label'			=> esc_html__( 'Background Color', 'gridzone' ),
+	'section'		=> 'styling',
+	'default'		=> '#f1f1f1',
 ) );
 // Styling: Single Box Max-width
 Kirki::add_field( 'gridzone_theme', array(

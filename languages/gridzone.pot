@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gridzone\n"
-"POT-Creation-Date: 2019-08-05 20:07+0200\n"
+"POT-Creation-Date: 2019-08-21 16:47+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -693,38 +693,54 @@ msgid ""
 msgstr ""
 
 #: functions/theme-options.php:659
-msgid "Link Color"
+msgid "Header Color"
 msgstr ""
 
 #: functions/theme-options.php:667
+msgid "Social Sidebar Color"
+msgstr ""
+
+#: functions/theme-options.php:675
+msgid "Post Item Color"
+msgstr ""
+
+#: functions/theme-options.php:683
+msgid "Link Color"
+msgstr ""
+
+#: functions/theme-options.php:691
+msgid "Background Color"
+msgstr ""
+
+#: functions/theme-options.php:699
 msgid "Single Box Max-width"
 msgstr ""
 
-#: functions/theme-options.php:668
+#: functions/theme-options.php:700
 msgid "Max-width of the box around the content on single posts"
 msgstr ""
 
-#: functions/theme-options.php:681
+#: functions/theme-options.php:713
 msgid "Single Content Max-width"
 msgstr ""
 
-#: functions/theme-options.php:682
+#: functions/theme-options.php:714
 msgid "Max-width of the content on single posts"
 msgstr ""
 
-#: functions/theme-options.php:695
+#: functions/theme-options.php:727
 msgid "Page Box Max-width"
 msgstr ""
 
-#: functions/theme-options.php:696
+#: functions/theme-options.php:728
 msgid "Max-width of the box around the content on pages"
 msgstr ""
 
-#: functions/theme-options.php:709
+#: functions/theme-options.php:741
 msgid "Page Content Max-width"
 msgstr ""
 
-#: functions/theme-options.php:710
+#: functions/theme-options.php:742
 msgid "Max-width of the content on pages"
 msgstr ""
 

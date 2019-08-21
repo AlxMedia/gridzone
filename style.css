@@ -752,7 +752,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 }
 
 .s2 { background: #fff; position: fixed; top: 0; left: 0; bottom: 0; width: 80px; z-index: 99; box-shadow: 0 0 10px rgba(0,0,0,0.05), 1px 0 rgba(0,0,0,0.05); }
-.admin-bar .s2 { top: 33px; }
+.admin-bar .s2 { top: 32px; }
 .s2 .social-links { float: left; margin-top: 20px; width: 100%; }
 .s2 .social-links li { margin: 0 auto; padding: 4px 0; width: 100%; position: relative; }
 .s2 .social-links li:before { content:""; height: 1px; background: rgba(0,0,0,0.06); position: absolute; left: 30px; right: 30px; top: 0; }

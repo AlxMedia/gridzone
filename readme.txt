@@ -89,6 +89,7 @@ Content images (left to right, top to bottom)
 
 = 1.1.3 - 2019-08-21 =
 * Added missing social links for footer
+* Added more styling options
 
 = 1.1.2 - 2019-08-15 =
 * Fixed sticky header issue with not clickable elements below when hidden
