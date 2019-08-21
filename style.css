@@ -1,7 +1,7 @@
 /*
 Theme Name: Gridzone
 Theme URI: http://alx.media/themes/gridzone/
-Version: 1.1.2
+Version: 1.1.3
 Description: <a href="http://alx.media/themes/gridzone/">Gridzone</a> is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Gridzone
 Author: Alexander Agnarson
 Author URI: http://alx.media
@@ -924,6 +924,13 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #footer-bottom #back-to-top { border: 1px solid #e5e5e5; border-top: 0; color: #333; padding: 10px 0; overflow: hidden; text-align: center; width: 60px; height: 30px; display: block; margin: 0 auto; margin: 0 auto 0; border-radius: 0 0 10px 10px; }
 #footer-bottom #back-to-top i { font-size: 38px; position: relative; top: -7px; }
 #footer-bottom #back-to-top:hover { color: #333; }
+#footer-bottom .social-links { padding-top: 40px; float: none; }
+#footer-bottom .social-links a { color: #444; }
+#footer-bottom .social-links a:hover { color: #333; }
+#footer-bottom .social-links li { margin: 0 6px; }
+#footer-bottom .social-links .social-tooltip { font-size: 22px; }
+#footer-bottom .social-links .social-tooltip:hover:after { background: #333; color: #fff; }
+#footer-bottom .social-links .social-tooltip:hover:before { border-color: #333 transparent; }
 
 /*  footer : nav
 /* ------------------------------------ */

@@ -72,6 +72,10 @@
 					</div><!--/#credit-->
 					<?php endif; ?>
 					
+					<?php if ( get_theme_mod( 'footer-social', 'on' ) == 'on' ): ?>
+						<?php gridzone_social_links() ; ?>
+					<?php endif; ?>
+					
 				</div>
 							
 			</div><!--/.pad-->

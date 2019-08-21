@@ -72,6 +72,9 @@ h1, h2, h3, h4, h5, h6,
 .s2 .social-links .social-tooltip:hover:after { background: #fff; color: #333; }
 .s2 .social-links .social-tooltip:hover:before { border-color: transparent #fff;  }
 
+#footer-bottom .social-links a { color: rgba(255,255,255,0.7); }
+#footer-bottom .social-links a:hover { color: #fff; }
+
 #nav-mobile .nav-toggle { color: #fff; }
 @media only screen and (min-width: 720px) {
 	#nav-mobile .nav > li > a { color: rgba(255,255,255,0.7); }	
