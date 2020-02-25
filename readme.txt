@@ -1,8 +1,8 @@
 === Gridzone ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 5.0
-Version: 1.1.3
+Tested up to: 5.3.2
+Version: 1.1.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -86,6 +86,11 @@ Content images (left to right, top to bottom)
 9. https://stocksnap.io/photo/CLCT9SWF9E - CC0 1.0 Universal (CC0 1.0) 
 
 == Changelog ==
+
+= 1.1.4 - 2020-02-25 =
+* Fixed comments form checkbox position
+* Updated to Font Awesome 5.12.1
+* Updated to Kirki 3.0.45
 
 = 1.1.3 - 2019-08-21 =
 * Added missing social links for footer
