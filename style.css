@@ -342,10 +342,12 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 
 /* block : image */
 .entry .wp-block-image {  }
+.entry .wp-block-image figcaption { font-size: 14px; text-align: center; }
 
 /* block : gallery */
 .entry .wp-block-gallery { padding: 0; }
 .entry .wp-block-gallery { margin-left: 0; }
+.entry .wp-block-gallery .blocks-gallery-grid { margin: 0; padding: 0; }
 .entry .wp-block-gallery .blocks-gallery-item figcaption { box-sizing: border-box; }
 
 /* block : cover */
