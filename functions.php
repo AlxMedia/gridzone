@@ -209,7 +209,7 @@ if ( ! function_exists( 'gridzone_styles' ) ) {
 	
 	function gridzone_styles() {
 		wp_enqueue_style( 'gridzone-style', get_stylesheet_uri() );
-		if ( get_theme_mod('responsive','on') =='on' ) { wp_enqueue_style( 'gridzone-responsive', get_template_directory_uri().'/responsive.css' ); }
+		wp_enqueue_style( 'gridzone-responsive', get_template_directory_uri().'/responsive.css' );
 		if ( get_theme_mod('dark','off') == 'on' ) { wp_enqueue_style( 'gridzone-dark', get_template_directory_uri().'/dark.css' ); }
 		wp_enqueue_style( 'gridzone-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
