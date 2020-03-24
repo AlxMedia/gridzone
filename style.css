@@ -340,13 +340,16 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 .entry ol li,
 .entry ol ul ol li { list-style: decimal; }
 
+/* block : common */
+.entry .wp-block-image figcaption,
+.entry .wp-block-audio figcaption,
+.entry .wp-block-embed figcaption { font-size: 14px; text-align: center; }
+
 /* block : image */
 .entry .wp-block-image {  }
-.entry .wp-block-image figcaption { font-size: 14px; text-align: center; }
 
 /* block : gallery */
-.entry .wp-block-gallery { padding: 0; }
-.entry .wp-block-gallery { margin-left: 0; }
+.entry .wp-block-gallery { padding: 0; margin-left: 0; }
 .entry .wp-block-gallery .blocks-gallery-grid { margin: 0; padding: 0; }
 .entry .wp-block-gallery .blocks-gallery-item figcaption { box-sizing: border-box; }
 
@@ -354,7 +357,8 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 .entry .wp-block-cover {  }
 
 /* block : quote */
-.entry .wp-block-quote {  }
+.entry .wp-block-quote { margin-bottom: 20px; }
+.entry .wp-block-quote.is-large { padding-left: 50px; }
 
 /* block : audio */
 .entry .wp-block-audio {  }
@@ -373,12 +377,11 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 .entry .wp-block-classic {  }
 
 /* block : pullquote */
-.entry .wp-block-pullquote { font-weight: 400; padding: 0; }
-.entry .wp-block-pullquote.alignleft { margin-right: 2em; max-width: 305px; }
-.entry .wp-block-pullquote.alignright { margin-left: 2em; max-width: 305px; }
-.entry .wp-block-pullquote blockquote { padding-left: 0; text-align: left; }
-.entry .wp-block-pullquote blockquote:before { display: none; }
-.entry .wp-block-pullquote blockquote p { line-height: 1.4em; color: #444; }
+.entry .wp-block-pullquote { padding-top: 0; padding-bottom: 0; }
+.entry .wp-block-pullquote.alignleft { margin-right: 2em; }
+.entry .wp-block-pullquote.alignright { margin-left: 2em; }
+.entry .wp-block-pullquote blockquote { padding-left: 50px; text-align: left; }
+.entry .wp-block-pullquote blockquote p { line-height: 1.4em; }
 
 /* block : code */
 .entry .wp-block-code {  }
