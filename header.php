@@ -19,7 +19,7 @@
 <div id="wrapper">
 	
 	<div id="header-sticky">
-		<header id="header" class="hide-on-scroll-down">
+		<header id="header" class="hide-on-scroll-down nav-menu-dropdown-left">
 
 			<div class="group">
 				<?php echo gridzone_site_title(); ?>
@@ -28,19 +28,11 @@
 				<?php endif; ?>
 				
 				<?php if ( has_nav_menu('header') ): ?>
-					<nav class="nav-container group" id="nav-header">
-						<div class="nav-toggle"><i class="fas fa-bars"></i></div>
-						<div class="nav-text"><!-- put your mobile menu text here --></div>
-						<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'header','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>				
-					</nav><!--/#nav-header-->
+					<?php \AlexMedia\Nav::nav_menu(array('theme_location'=>'header','menu_id' => 'nav-header','fallback_cb'=> false)); ?>
 				<?php endif; ?>
 				
 				<?php if ( has_nav_menu('mobile') ): ?>
-					<nav class="nav-container group" id="nav-mobile">
-						<div class="nav-toggle"><i class="fas fa-bars"></i></div>
-						<div class="nav-text"><!-- put your mobile menu text here --></div>
-						<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'mobile','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>									
-					</nav><!--/#nav-mobile-->
+					<?php \AlexMedia\Nav::nav_menu(array('theme_location'=>'mobile','menu_id' => 'nav-mobile','fallback_cb'=> false)); ?>
 				<?php endif; ?>
 				
 			</div>

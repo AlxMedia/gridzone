@@ -75,48 +75,9 @@ h1, h2, h3, h4, h5, h6,
 #footer-bottom .social-links a { color: rgba(255,255,255,0.7); }
 #footer-bottom .social-links a:hover { color: #fff; }
 
-#nav-mobile .nav-toggle { color: #fff; }
-@media only screen and (min-width: 720px) {
-	#nav-mobile .nav > li > a { color: rgba(255,255,255,0.7); }	
-	#nav-mobile .nav > li > a:hover, 
-	#nav-mobile .nav > li:hover > a { background: transparent; color: #fff; }
-	#nav-mobile .nav > li.current_page_item > a, 
-	#nav-mobile .nav > li.current-menu-item > a,
-	#nav-mobile .nav > li.current-menu-ancestor > a,
-	#nav-mobile .nav > li.current-post-parent > a { color: #fff; }
-}
 @media only screen and (max-width: 719px) {
 	.toggle-search,
 	.toggle-search.active { background: transparent; }
-	#nav-mobile.nav-container { background: #333; }
-	#nav-mobile .nav li a { color: #999; border-bottom: 1px solid #3a3a3a; }	
-	#nav-mobile .nav li > a:hover,
-	#nav-mobile .nav li.current_page_item > a, 
-	#nav-mobile .nav li.current-menu-item > a,
-	#nav-mobile .nav li.current-post-parent > a { background: transparent; color: #fff; }
-	
-}
-
-#nav-header .nav-toggle { color: #fff; }
-@media only screen and (min-width: 720px) {
-	#nav-header .nav > li > a { color: rgba(255,255,255,0.7); }	
-	#nav-header .nav > li > a:hover, 
-	#nav-header .nav > li:hover > a { background: transparent; color: #fff; }
-	#nav-header .nav > li.current_page_item > a, 
-	#nav-header .nav > li.current-menu-item > a,
-	#nav-header .nav > li.current-menu-ancestor > a,
-	#nav-header .nav > li.current-post-parent > a { color: #fff; }
-}
-@media only screen and (max-width: 719px) {
-	.toggle-search,
-	.toggle-search.active { background: transparent; }
-	#nav-header.nav-container { background: #333; }
-	#nav-header .nav li a { color: #999; border-bottom: 1px solid #3a3a3a; }	
-	#nav-header .nav li > a:hover,
-	#nav-header .nav li.current_page_item > a, 
-	#nav-header .nav li.current-menu-item > a,
-	#nav-header .nav li.current-post-parent > a { background: transparent; color: #fff; }
-	
 }
 
 .entry table tr.alt { background: #262626; }
@@ -297,3 +258,44 @@ h1, h2, h3, h4, h5, h6,
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
 	.sidebar .widget { border-top-color: #444; }
 }
+
+
+/* ------------------------------------------------------------------------- *
+ *  Section: Navigation
+/* ------------------------------------------------------------------------- */
+/* desktop */
+.nav-menu:not(.mobile) .menu ul { background: #fff; }
+.nav-menu:not(.mobile) .menu ul:after { border-bottom-color: #fff; }
+.nav-menu:not(.mobile) .menu ul ul:after { border-right-color: #fff; }
+.nav-menu-dropdown-left .nav-menu:not(.mobile) .menu ul ul:after { border-left-color: #fff; }
+
+.nav-menu:not(.mobile) a { color: #bbb; }
+.nav-menu:not(.mobile) a:hover { color: #fff; }
+.nav-menu:not(.mobile) ul ul a:hover { color: #333; }
+.nav-menu:not(.mobile) ul ul > li:hover > span { background: rgba(0,0,0,0.07); }
+.nav-menu:not(.mobile) ul ul a { color: #666; }
+
+.nav-menu:not(.mobile) button { color: #666; }
+.nav-menu:not(.mobile) button.active { background: #222; color: #333; }
+.nav-menu:not(.mobile) button .svg-icon { fill: #666; }
+.nav-menu:not(.mobile) ul ul button { color: #666; }
+.nav-menu:not(.mobile) ul ul button.active { background: #eee; color: #666; }
+
+.nav-menu:not(.mobile) li.current_page_item > span > a, 
+.nav-menu:not(.mobile) li.current-menu-item > span > a, 
+.nav-menu:not(.mobile) li.current-menu-ancestor > span > a, 
+.nav-menu:not(.mobile) li.current-post-parent > span > a { color: #fff; }
+.nav-menu:not(.mobile) ul ul li.current_page_item > span > a, 
+.nav-menu:not(.mobile) ul ul li.current-menu-item > span > a, 
+.nav-menu:not(.mobile) ul ul li.current-menu-ancestor > span > a, 
+.nav-menu:not(.mobile) ul ul li.current-post-parent > span > a { color: #333; }
+
+/* mobile */
+.nav-menu.mobile button.active .svg-icon { fill: #fff; }
+.nav-menu.mobile ul ul { background: #303030; }
+.nav-menu.mobile ul li .menu-item-wrapper { border-bottom: 1px solid #3a3a3a; }
+.nav-menu.mobile > div > ul > li:first-child .menu-item-wrapper { border-top: 1px solid #3a3a3a; }
+.nav-menu.mobile ul li a { color: #fff; }
+.nav-menu.mobile ul button { border-left: 1px solid #3a3a3a; }
+
+.menu-toggle-icon span { background: #fff; }

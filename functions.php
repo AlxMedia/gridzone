@@ -97,6 +97,19 @@ if ( ! function_exists( 'gridzone_setup' ) ) {
 add_action( 'after_setup_theme', 'gridzone_setup' );
 
 
+/*  Custom navigation
+/* ------------------------------------ */
+require_once 'functions/nav.php';
+$nav = new \AlexMedia\Nav();
+$nav->enqueue(
+	[
+		'script' => 'js/nav.js', // Relative to the theme's root folder.
+		'style'  => 'css/nav.css', // Relative to the theme's root folder.
+		'inline' => false,
+	]
+);
+$nav->init();
+
 /*  Custom logo
 /* ------------------------------------ */
 if ( ! function_exists( 'gridzone_custom_logo' ) ) {
