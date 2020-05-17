@@ -70,18 +70,6 @@ jQuery(document).ready(function($) {
 /* ------------------------------------ */
 	$('table tr:odd').addClass('alt');
 
-/*  Dropdown menu animation
-/* ------------------------------------ */
-	$('.nav ul.sub-menu').hide();
-	$('.nav li').hover( 
-		function() {
-			$(this).children('ul.sub-menu').slideDown('fast');
-		}, 
-		function() {
-			$(this).children('ul.sub-menu').hide();
-		}
-	);
-
 /*  Fitvids
 /* ------------------------------------ */
 	function responsiveVideo() {
