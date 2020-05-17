@@ -89,7 +89,7 @@ Content images (left to right, top to bottom)
 
 = 1.1.6 - 2020-05-17 =
 * Completely rebuilt menus with a11y in mind, collapsed/expandable mobile sub-menus
-* Change 3-item masonry view from 1024px up to 1080px
+* Changed 3-item masonry view from 1024px up to 1080px
 * Added svg icons for search, search close and menu dropdown arrows
 * Added new css headers for requires at least WP version and PHP version
 * Updated language files
