@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
 /* ------------------------------------ */	
 	$('.logged-out #header-sticky').stickThis({
 		top:            0,
-		minscreenwidth: 1025,
+		minscreenwidth: 1081,
 		maxscreenwidth: 999999,
 		zindex:         99,
 		debugmode:      false,
@@ -93,7 +93,7 @@ jQuery(document).ready(function($) {
 	
 	$('.admin-bar #header-sticky').stickThis({
 		top:            32,
-		minscreenwidth: 1025,
+		minscreenwidth: 1081,
 		maxscreenwidth: 999999,
 		zindex:         99,
 		debugmode:      false,

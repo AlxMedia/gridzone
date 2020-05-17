@@ -9,7 +9,7 @@
 	.col-1c .masonry-item { width: 33.33%; } 
 	.entry-header .entry-title { font-size: 38px; }
 }
-@media only screen and (min-width: 960px) and (max-width: 1024px) {
+@media only screen and (min-width: 960px) and (max-width: 1080px) {
 	.masonry-item,
 	.col-1c .masonry-item { width: 33.33%; }
 }
@@ -24,7 +24,7 @@
 /* ------------------------------------------------------------------------- *
  *  Sidebar : 960px > 480px
 /* ------------------------------------------------------------------------- */
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (min-width: 480px) and (max-width: 1080px) {
 	
 	/* s1 general */
 	.s1 { width: 100%; }
