@@ -100,11 +100,10 @@ add_action( 'after_setup_theme', 'gridzone_setup' );
 /*  Custom navigation
 /* ------------------------------------ */
 require_once 'functions/nav.php';
-$nav = new \AlexMedia\Nav();
+$nav = new \AlxMedia\Nav();
 $nav->enqueue(
 	[
-		'script' => 'js/nav.js', // Relative to the theme's root folder.
-		'style'  => 'css/nav.css', // Relative to the theme's root folder.
+		'script' => 'js/nav.js',
 		'inline' => false,
 	]
 );

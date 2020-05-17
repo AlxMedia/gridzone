@@ -28,11 +28,11 @@
 				<?php endif; ?>
 				
 				<?php if ( has_nav_menu('header') ): ?>
-					<?php \AlexMedia\Nav::nav_menu(array('theme_location'=>'header','menu_id' => 'nav-header','fallback_cb'=> false)); ?>
+					<?php \AlxMedia\Nav::nav_menu(array('theme_location'=>'header','menu_id' => 'nav-header','fallback_cb'=> false)); ?>
 				<?php endif; ?>
 				
 				<?php if ( has_nav_menu('mobile') ): ?>
-					<?php \AlexMedia\Nav::nav_menu(array('theme_location'=>'mobile','menu_id' => 'nav-mobile','fallback_cb'=> false)); ?>
+					<?php \AlxMedia\Nav::nav_menu(array('theme_location'=>'mobile','menu_id' => 'nav-mobile','fallback_cb'=> false)); ?>
 				<?php endif; ?>
 				
 			</div>

@@ -3,7 +3,7 @@
  * An accessible and mobile-friendly implementation for navigation menus.
  */
 
-namespace AlexMedia;
+namespace AlxMedia;
 
 /**
  * Object containing all methods and hooks to modify default menus.
