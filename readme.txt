@@ -1,8 +1,8 @@
 === Gridzone ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 5.3.2
-Version: 1.1.5
+Tested up to: 5.4.1
+Version: 1.1.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -86,6 +86,11 @@ Content images (left to right, top to bottom)
 9. https://stocksnap.io/photo/CLCT9SWF9E - CC0 1.0 Universal (CC0 1.0) 
 
 == Changelog ==
+
+= 1.1.6 - 2020-05-17 =
+* Completely rebuilt menus with a11y in mind, collapsed/expandable mobile sub-menus
+* Added svg icons for search, search close and menu dropdown arrows
+* Added new css headers for requires at least WP version and PHP version
 
 = 1.1.5 - 2020-03-25 =
 * Removed ?filter=5 from theme review link
