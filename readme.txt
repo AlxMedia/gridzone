@@ -91,6 +91,7 @@ Content images (left to right, top to bottom)
 * Completely rebuilt menus with a11y in mind, collapsed/expandable mobile sub-menus
 * Added svg icons for search, search close and menu dropdown arrows
 * Added new css headers for requires at least WP version and PHP version
+* Updated language files
 
 = 1.1.5 - 2020-03-25 =
 * Removed ?filter=5 from theme review link
