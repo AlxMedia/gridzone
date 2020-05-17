@@ -164,7 +164,7 @@ class Nav {
 	 */
 	public static function nav_menu( $args, $toggle_label = false, $nav_classes = 'main-navigation nav-menu' ) {
 		if ( false === $toggle_label ) {
-			$toggle_label = '<span class="screen-reader-text">' . esc_html__( 'Expand Menu', 'textdomain' ) . '</span><div class="menu-toggle-icon"><span></span><span></span><span></span></div>';
+			$toggle_label = '<span class="screen-reader-text">' . esc_html__( 'Expand Menu', 'gridzone' ) . '</span><div class="menu-toggle-icon"><span></span><span></span><span></span></div>';
 		}
 		?>
 		<nav id="<?php echo esc_attr( $args['menu_id'] ); ?>-nav" class="<?php echo esc_attr( $nav_classes ); ?>">
@@ -200,7 +200,7 @@ class Nav {
 		// Skip when the item has no sub-menu.
 		if ( in_array( 'menu-item-has-children', $item->classes, true ) ) {
 			$html         = '<span class="menu-item-wrapper has-arrow">';
-			$item_output .= '<button onClick="alxMediaMenu.toggleItem(this)"><span class="screen-reader-text">' . esc_html__( 'Toggle Child Menu', 'textdomain' ) . '</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)"></polygon></svg></button>';
+			$item_output .= '<button onClick="alxMediaMenu.toggleItem(this)"><span class="screen-reader-text">' . esc_html__( 'Toggle Child Menu', 'gridzone' ) . '</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)"></polygon></svg></button>';
 		}
 
 		$html .= $item_output;
@@ -270,8 +270,8 @@ class Nav {
 			 */
 			return sprintf(
 				/* Translators: %1$s: "Current Page:". %2$s: The menu-item title. */
-				__( '<span class="screen-reader-text">%1$s </span>%2$s', 'textdomain' ),
-				esc_html__( 'Current Page:', 'textdomain' ),
+				__( '<span class="screen-reader-text">%1$s </span>%2$s', 'gridzone' ),
+				esc_html__( 'Current Page:', 'gridzone' ),
 				$title
 			);
 		}
@@ -284,8 +284,8 @@ class Nav {
 			 */
 			return sprintf(
 				/* Translators: %1$s: "Current Page Parent:". %2$s: The menu-item title. */
-				__( '<span class="screen-reader-text">%1$s </span>%2$s', 'textdomain' ),
-				esc_html__( 'Current Page Parent', 'textdomain' ),
+				__( '<span class="screen-reader-text">%1$s </span>%2$s', 'gridzone' ),
+				esc_html__( 'Current Page Parent', 'gridzone' ),
 				$title
 			);
 		}

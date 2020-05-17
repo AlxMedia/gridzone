@@ -299,3 +299,7 @@ h1, h2, h3, h4, h5, h6,
 .nav-menu.mobile ul button { border-left: 1px solid #3a3a3a; }
 
 .menu-toggle-icon span { background: #fff; }
+
+/* search */
+.toggle-search .svg-icon { fill: #fff; }
+.themeform.searchform div:after { color: #666; }
