@@ -45,7 +45,7 @@ window.alxMediaMenu = {
 			self.toggleHoverEventListeners( nav );
 
 			// Toggle focus classes on links.
-			nav.querySelectorAll( 'a' ).forEach( function( link ) {
+			nav.querySelectorAll( 'a,button' ).forEach( function( link ) {
 				link.addEventListener( 'focus', window.alxMediaMenu.toggleFocus, true );
 				link.addEventListener( 'blur', window.alxMediaMenu.toggleFocus, true );
 			});
