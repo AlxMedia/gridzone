@@ -675,6 +675,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .site-title { font-size: 36px; font-weight: 300; letter-spacing: -0.5px; float: left; line-height: 60px; padding: 10px 0 10px 0; position: relative; z-index: 2; }
 .site-title a { display: block; color: #333; max-width: 100%; }
 .site-title a img { display: block; max-width: 100%; max-height: 60px; height: auto; padding: 0; margin: 0 auto; -webkit-border-radius: 0; border-radius: 0; }
+.site-title a:focus { outline: dotted; outline-width: 1px; }
 .site-description { font-size: 16px; font-weight: 300; color: #aaa; float: left; margin: 30px 0 0 20px; position: relative; z-index: 2; }
 .site-header { background: #eee; }
 .site-image { display: block; margin: 0 auto; max-height: 400px; }
@@ -688,7 +689,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 /*  header : search
 /* ------------------------------------ */
-.toggle-search { background: #fff; border: 1px solid #eee; color: #333; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; border-radius: 10px; padding: 16px 0; margin: 10px; display: block; }
+.toggle-search { background: #fff; border: 1px solid #eee; width: 60px; color: #333; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; border-radius: 10px; padding: 16px 0; margin: 10px; display: block; }
 .toggle-search:hover { color: #333; }
 .toggle-search.active { background: #f1f1f1; color: #333; border-radius: 10px 0 0 10px; }
 .toggle-search.active i:before { content: "\f00d"; }
@@ -742,7 +743,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .menu ul.active,
 .nav-menu:not(.mobile) .menu li.hover > ul { max-width: 100vw; max-height: 300vh; }
 .nav-menu:not(.mobile) .menu .sub-menu { position: absolute; }
-.screen-reader-text { display: none; }
+.nav-menu .screen-reader-text { display: none; }
 .nav-menu .menu-item-wrapper { display: flex; }
 .nav-menu { line-height: 20px; }
 .nav-menu button { color: inherit; cursor: pointer; font-family: inherit; position: relative; text-align: inherit; user-select: none; background: none; border: none; box-shadow: none; border-radius: 0; font-size: inherit; font-weight: 400; letter-spacing: inherit; padding: 0; text-transform: none; }
@@ -1567,7 +1568,5 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 /* Text meant only for screen readers. */
 .screen-reader-text{ border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute!important; width: 1px; word-wrap: normal!important; }
 .screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
-.skip-link { left: -9999rem; top: 2.5rem; z-index: 999999999; text-decoration: underline; }
-.skip-link:focus { display: block; left: 6px; top: 7px; font-size: 14px; font-weight: 600; text-decoration: none; line-height: normal; padding: 15px 23px 14px; z-index: 100000; right: auto; }
 /* Do not show the outline on the skip link target. */
 #page[tabindex="-1"]:focus{ outline: 0; }
