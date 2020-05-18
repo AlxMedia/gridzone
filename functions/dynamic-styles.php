@@ -140,7 +140,7 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 .site-title a { color: #fff; }
 .site-description { color: rgba(255,255,255,0.6); }
 @media only screen and (max-width: 719px) {
-	.site-title { border-bottom-color: rgba(255,255,255,0.2)!important; }
+	.site-title { border-bottom-color: rgba(255,255,255,0.15)!important; }
 }
 .nav-menu:not(.mobile) a { color: rgba(255,255,255,0.7); }
 .nav-menu:not(.mobile) a:hover { color: #fff; }
@@ -153,13 +153,14 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 .menu-toggle-icon span { background: #fff; }
 .nav-menu.mobile ul li a { color: #fff; }
 .nav-menu .svg-icon { fill: #fff; }
+.nav-menu:not(.mobile) button.active { background: rgba(0,0,0,0.1); }
 .nav-menu.mobile button.active .svg-icon { fill: #fff; }
 .nav-menu.mobile ul ul { background: rgba(0,0,0,0.05); }
 .nav-menu.mobile ul li .menu-item-wrapper,
-.nav-menu.mobile ul ul li .menu-item-wrapper { border-bottom-color: rgba(255,255,255,0.2); }
-.nav-menu.mobile > div > ul > li:first-child .menu-item-wrapper { border-top-color: rgba(255,255,255,0.2); }
+.nav-menu.mobile ul ul li .menu-item-wrapper { border-bottom-color: rgba(255,255,255,0.15); }
+.nav-menu.mobile > div > ul > li:first-child .menu-item-wrapper { border-top-color: rgba(255,255,255,0.15); }
 .nav-menu.mobile ul button,
-.nav-menu.mobile ul ul button { border-left-color: rgba(255,255,255,0.2); }
+.nav-menu.mobile ul ul button { border-left-color: rgba(255,255,255,0.15); }
 				'."\n";
 			}
 			// social sidebar color
