@@ -139,17 +139,27 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 #wrapper { border-top-color: '.esc_attr( get_theme_mod('color-header') ).';  }
 .site-title a { color: #fff; }
 .site-description { color: rgba(255,255,255,0.6); }
-@media only screen and (min-width: 720px) {
-	#nav-header .nav > li > a { color: rgba(255,255,255,0.7); }	
-	#nav-header .nav > li > a:hover, 
-	#nav-header .nav > li:hover > a { color: #fff; }
-	#nav-header .nav > li > a:hover, 
-	#nav-header .nav > li:hover > a { color: #fff; } 
-	#nav-header .nav > li.current_page_item > a, 
-	#nav-header .nav > li.current-menu-item > a,
-	#nav-header .nav > li.current-menu-ancestor > a,
-	#nav-header .nav > li.current-post-parent > a { color: #fff; }
+@media only screen and (max-width: 719px) {
+	.site-title { border-bottom-color: rgba(255,255,255,0.2)!important; }
 }
+.nav-menu:not(.mobile) a { color: rgba(255,255,255,0.7); }
+.nav-menu:not(.mobile) a:hover { color: #fff; }
+.nav-menu:not(.mobile) li.current_page_item > span > a, 
+.nav-menu:not(.mobile) li.current-menu-item > span > a, 
+.nav-menu:not(.mobile) li.current-menu-ancestor > span > a, 
+.nav-menu:not(.mobile) li.current-post-parent > span > a { color: #fff; }
+.nav-menu:not(.mobile) button .svg-icon { fill: rgba(255,255,255,0.7); }
+.toggle-search .svg-icon { fill: #fff; }
+.menu-toggle-icon span { background: #fff; }
+.nav-menu.mobile ul li a { color: #fff; }
+.nav-menu .svg-icon { fill: #fff; }
+.nav-menu.mobile button.active .svg-icon { fill: #fff; }
+.nav-menu.mobile ul ul { background: rgba(0,0,0,0.05); }
+.nav-menu.mobile ul li .menu-item-wrapper,
+.nav-menu.mobile ul ul li .menu-item-wrapper { border-bottom-color: rgba(255,255,255,0.2); }
+.nav-menu.mobile > div > ul > li:first-child .menu-item-wrapper { border-top-color: rgba(255,255,255,0.2); }
+.nav-menu.mobile ul button,
+.nav-menu.mobile ul ul button { border-left-color: rgba(255,255,255,0.2); }
 				'."\n";
 			}
 			// social sidebar color
@@ -167,6 +177,7 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 	.toggle-search:hover, 
 	.toggle-search.active { color: rgba(255,255,255,0.75); }
 	.s2 .social-links li:before { background: rgba(255,255,255,0.15); }
+	.toggle-search .svg-icon { fill: #fff; }
 }
 				'."\n";
 			}
