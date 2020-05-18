@@ -1,7 +1,7 @@
 /*
 Theme Name: Gridzone
 Theme URI: http://alx.media/themes/gridzone/
-Version: 1.1.9
+Version: 1.2.0
 Requires at least: 5.0
 Requires PHP: 5.6
 Description: <a href="http://alx.media/themes/gridzone/">Gridzone</a> is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Gridzone
@@ -1567,5 +1567,7 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 /* Text meant only for screen readers. */
 .screen-reader-text{ border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute!important; width: 1px; word-wrap: normal!important; }
 .screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
+.skip-link { left: -9999rem; top: 2.5rem; z-index: 999999999; text-decoration: underline; }
+.skip-link:focus { display: block; left: 6px; top: 7px; font-size: 14px; font-weight: 600; text-decoration: none; line-height: normal; padding: 15px 23px 14px; z-index: 100000; right: auto; }
 /* Do not show the outline on the skip link target. */
 #page[tabindex="-1"]:focus{ outline: 0; }
