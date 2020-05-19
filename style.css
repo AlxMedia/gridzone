@@ -814,6 +814,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu:not(.mobile) ul ul button.active { background: #444; color: #eee; }
 .nav-menu:not(.mobile) ul ul button .svg-icon { transform: rotate(-90deg); }
 .nav-menu:not(.mobile) .menu > li { margin: 16px 20px 0 0; position: relative; }
+.nav-menu:not(.mobile) .menu > li:last-child { margin-right: 0; }
 .nav-menu:not(.mobile) .menu a { padding: 0; }
 
 .nav-menu:not(.mobile) li.current_page_item > span > a, 
