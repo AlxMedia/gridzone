@@ -2,7 +2,7 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.4.1
-Version: 1.2.2
+Version: 1.2.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -86,6 +86,10 @@ Content images (left to right, top to bottom)
 9. https://stocksnap.io/photo/CLCT9SWF9E - CC0 1.0 Universal (CC0 1.0) 
 
 == Changelog ==
+
+= 1.2.3 - 2020-05-24 =
+* Fixed no outline on mobile search toggle
+* Fixed no outline on mobile menu toggle
 
 = 1.2.2 - 2020-05-23 =
 * Fixed focus link outline for all links
