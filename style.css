@@ -774,6 +774,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu:not(.mobile) span { transition: all 0.3s ease; }
 
 .nav-menu.mobile { padding: 0; }
+.nav-menu.mobile button:focus { outline: none; }
 .nav-menu.mobile > button { padding: 16px 20px; float: right; }
 .nav-menu.mobile button .svg-icon { transition: all 250ms; }
 .nav-menu.mobile button.active .svg-icon { transform: rotate(180deg); }
@@ -959,7 +960,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .masonry-item .entry-top { position: relative; overflow: hidden; }
 .masonry-item .entry-thumbnail { display: block; position: relative; }
 .masonry-item .entry-thumbnail:before { opacity: 0.01; background: url(img/image-gradient.png) repeat-x; background-size: 100% 100%; content: ""; position: absolute; display: block; height: 100%; width: 100%; bottom: 0; display: block; transition: all .4s ease; pointer-events: none; }
-.masonry-item:hover .entry-thumbnail:before { opacity: 0.4; }
+.masonry-item:hover .entry-thumbnail:before,
 .masonry-item .entry-thumbnail:focus:before { opacity: 0.4; }
 .masonry-item:hover .thumb-icon { background: #fff; color: #333; }
 .masonry-item .entry-category { background: transparent; color: #bbb; opacity: 0; position: absolute; left: 0; right: 0; bottom: -100px; padding: 20px 20px 14px; pointer-events: none; transition: all 0.3s ease; }
