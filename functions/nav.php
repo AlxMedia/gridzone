@@ -56,7 +56,7 @@ class Nav {
 	 * @return void
 	 */
 	public function init() {
-		add_filter( 'walker_nav_menu_start_el', [ $this, 'add_nav_sub_menu_buttons' ], 10, 2 );
+		add_filter( 'walker_nav_menu_start_el', [ $this, 'add_nav_sub_menu_buttons' ], 10, 4 );
 		add_filter( 'nav_menu_item_title', [ $this, 'nav_menu_item_title' ], 10, 4 );
 	}
 
@@ -188,12 +188,18 @@ class Nav {
 	 *
 	 * @access public
 	 *
-	 * @param string $item_output Nav menu item HTML.
-	 * @param object $item        Nav menu item.
+	 * @param string   $item_output The menu item's starting HTML output.
+	 * @param WP_Post  $item        Menu item data object.
+	 * @param int      $depth       Depth of menu item. Used for padding.
+	 * @param stdClass $args        An object of wp_nav_menu() arguments.
 	 *
 	 * @return string Modified nav menu item HTML.
 	 */
-	public function add_nav_sub_menu_buttons( $item_output, $item ) {
+	public function add_nav_sub_menu_buttons( $item_output, $item, $depth, $args ) {
+
+		if ( ! $args->theme_location ) {
+			return $item_output;
+		}
 
 		$html = '<span class="menu-item-wrapper">';
 
@@ -225,6 +231,10 @@ class Nav {
 	 * @return string
 	 */
 	public function nav_menu_item_title( $title, $item, $args, $depth ) {
+
+		if ( ! $args->theme_location ) {
+			return $title;
+		}
 
 		// Classes that can be used to indicate the currently active menu item.
 		$is_current_classes = [

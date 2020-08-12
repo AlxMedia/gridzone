@@ -1,7 +1,7 @@
 /*
 Theme Name: Gridzone
 Theme URI: http://alx.media/themes/gridzone/
-Version: 1.2.5
+Version: 1.2.6
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.5
@@ -735,12 +735,12 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu.mobile > .menu-toggle { display: block; }
 .nav-menu.mobile > .menu-toggle ~ * { max-height: 4000px; overflow: hidden; width: 100%; transition: max-height 0.5s cubic-bezier(1, 0, 1, 0); }
 .nav-menu.mobile > .menu-toggle[aria-expanded="false"] ~ * { max-height: 0; transition: max-height 0.5s cubic-bezier(0, 1.05, 0, 1); }
-.menu,
-.menu ul { display: flex; list-style: none; list-style-type: none; margin: 0; padding: 0; }
+.nav-menu .menu,
+.nav-menu .menu ul { display: flex; list-style: none; list-style-type: none; margin: 0; padding: 0; }
 .nav-menu a { display: block; text-decoration: none; width: 100%; }
 .nav-menu.mobile ul { flex-direction: column; }
-.menu ul { flex-direction: column; max-width: 0; max-height: 0; overflow: hidden; }
-.menu ul.active,
+.nav-menu .menu ul { flex-direction: column; max-width: 0; max-height: 0; overflow: hidden; }
+.nav-menu .menu ul.active,
 .nav-menu:not(.mobile) .menu li.hover > ul { max-width: 100vw; max-height: 300vh; }
 .nav-menu:not(.mobile) .menu .sub-menu { position: absolute; }
 .nav-menu .screen-reader-text { display: none; }
