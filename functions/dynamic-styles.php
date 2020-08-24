@@ -149,7 +149,9 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 .nav-menu:not(.mobile) li.current-menu-ancestor > span > a, 
 .nav-menu:not(.mobile) li.current-post-parent > span > a { color: #fff; }
 .nav-menu:not(.mobile) button .svg-icon { fill: rgba(255,255,255,0.7); }
+@media only screen and (max-width: 719px) {
 .toggle-search .svg-icon { fill: #fff; }
+}
 .menu-toggle-icon span { background: #fff; }
 .nav-menu.mobile ul li a { color: #fff; }
 .nav-menu .svg-icon { fill: #fff; }
@@ -158,9 +160,9 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 .nav-menu.mobile ul ul { background: rgba(0,0,0,0.05); }
 .nav-menu.mobile ul li .menu-item-wrapper,
 .nav-menu.mobile ul ul li .menu-item-wrapper { border-bottom-color: rgba(255,255,255,0.15); }
-.nav-menu.mobile > div > ul > li:first-child .menu-item-wrapper { border-top-color: rgba(255,255,255,0.15); }
 .nav-menu.mobile ul button,
 .nav-menu.mobile ul ul button { border-left-color: rgba(255,255,255,0.15); }
+.nav-menu.mobile > div > ul { border-top: 1px solid rgba(255,255,255,0.15); }
 				'."\n";
 			}
 			// social sidebar color
