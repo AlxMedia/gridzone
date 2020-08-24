@@ -295,11 +295,11 @@ h1, h2, h3, h4, h5, h6,
 .nav-menu.mobile button.active .svg-icon { fill: #fff; }
 .nav-menu.mobile ul ul { background: #2b2b2b; }
 .nav-menu.mobile ul li .menu-item-wrapper { border-bottom: 1px solid #3a3a3a; }
-.nav-menu.mobile > div > ul > li:first-child .menu-item-wrapper { border-top: 1px solid #3a3a3a; }
 .nav-menu.mobile ul li a { color: #fff; }
 .nav-menu.mobile ul button { border-left: 1px solid #3a3a3a; }
 .nav-menu.mobile ul ul li .menu-item-wrapper { border-bottom: 1px solid #3a3a3a; }
 .nav-menu.mobile ul ul button { border-left: 1px solid #3a3a3a; }
+.nav-menu.mobile > div > ul { border-top: 1px solid #3a3a3a; }
 .menu-toggle-icon span { background: #fff; }
 
 /* search */
