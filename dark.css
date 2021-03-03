@@ -305,3 +305,5 @@ h1, h2, h3, h4, h5, h6,
 /* search */
 .toggle-search .svg-icon { fill: #fff; }
 .themeform.searchform div:after { color: #666; }
+.toggle-search.active #svg-close { fill: rgba(255,255,255,0.5); }
+.toggle-search:focus #svg-close { fill: #fff; }
