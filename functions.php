@@ -99,15 +99,17 @@ add_action( 'after_setup_theme', 'gridzone_setup' );
 
 /*  Custom navigation
 /* ------------------------------------ */
-require_once 'functions/nav.php';
-$nav = new \AlxMedia\Nav();
-$nav->enqueue(
-	[
-		'script' => 'js/nav.js',
-		'inline' => false,
-	]
-);
-$nav->init();
+add_action( 'wp', function() {
+	require_once 'functions/nav.php';
+	$nav = new \Gridzone\Nav();
+	$nav->enqueue(
+		[
+			'script' => 'js/nav.js',
+			'inline' => false,
+		]
+	);
+	$nav->init();
+} );
 
 
 /*  Custom logo
