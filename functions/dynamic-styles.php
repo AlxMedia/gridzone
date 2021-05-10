@@ -181,6 +181,8 @@ if ( ! function_exists( 'gridzone_dynamic_css' ) ) {
 	.toggle-search.active { color: rgba(255,255,255,0.75); }
 	.s2 .social-links li:before { background: rgba(255,255,255,0.15); }
 	.toggle-search .svg-icon { fill: #fff; }
+	.toggle-search.active #svg-close { fill: rgba(255,255,255,0.7); }
+	.toggle-search:focus #svg-close { fill: #fff; }
 }
 				'."\n";
 			}
