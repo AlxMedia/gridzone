@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gridzone\n"
-"POT-Creation-Date: 2021-03-03 12:15+0100\n"
+"POT-Creation-Date: 2021-05-25 13:36+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -63,75 +63,75 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:186
 msgid "Primary"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:186
 msgid "Normal full width sidebar"
 msgstr ""
 
-#: functions.php:186 functions/theme-options.php:255
+#: functions.php:188 functions/theme-options.php:255
 msgid "Footer Ads"
 msgstr ""
 
-#: functions.php:186
+#: functions.php:188
 msgid "Footer ads area"
 msgstr ""
 
-#: functions.php:188
+#: functions.php:190
 msgid "Frontpage Top 1"
 msgstr ""
 
-#: functions.php:188 functions.php:189 functions.php:190 functions.php:191
+#: functions.php:190 functions.php:191 functions.php:192 functions.php:193
 msgid "Frontpage area"
 msgstr ""
 
-#: functions.php:189
+#: functions.php:191
 msgid "Frontpage Top 2"
 msgstr ""
 
-#: functions.php:190
+#: functions.php:192
 msgid "Frontpage Bottom 1"
 msgstr ""
 
-#: functions.php:191
+#: functions.php:193
 msgid "Frontpage Bottom 2"
 msgstr ""
 
-#: functions.php:193
+#: functions.php:195
 msgid "Footer 1"
 msgstr ""
 
-#: functions.php:193 functions.php:194 functions.php:195 functions.php:196
+#: functions.php:195 functions.php:196 functions.php:197 functions.php:198
 msgid "Widgetized footer"
 msgstr ""
 
-#: functions.php:194
+#: functions.php:196
 msgid "Footer 2"
 msgstr ""
 
-#: functions.php:195
+#: functions.php:197
 msgid "Footer 3"
 msgstr ""
 
-#: functions.php:196
+#: functions.php:198
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:691
+#: functions.php:693
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:695
+#: functions.php:697
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:699
+#: functions.php:701
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:703
+#: functions.php:705
 msgid "WP-PageNavi"
 msgstr ""
 

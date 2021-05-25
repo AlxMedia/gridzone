@@ -93,6 +93,9 @@ Content images (left to right, top to bottom)
 
 == Changelog ==
 
+= 1.3.3 - 2021-05-25 =
+* Updated language files
+
 = 1.3.2 - 2021-05-25 =
 * Fixed compatibility issue with custom nav and various security plugins
 
