@@ -93,6 +93,9 @@ Content images (left to right, top to bottom)
 
 == Changelog ==
 
+= 1.3.5 - 2021-07-19 =
+* Updated to Kirki 3.1.9
+
 = 1.3.4 - 2021-07-03 =
 * Updated to Kirki 3.1.8
 
