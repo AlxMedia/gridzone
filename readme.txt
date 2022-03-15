@@ -93,8 +93,8 @@ Content images (left to right, top to bottom)
 
 == Changelog ==
 
-= 1.3.8 - 2022-01-24 =
-* Updated to Kirki 4.0
+= 1.3.8 - 2022-03-15 =
+* Updated to Kirki 4.0.22
 
 = 1.3.7 - 2021-08-25 =
 * Added missing theme tags for wordpress.org
