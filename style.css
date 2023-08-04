@@ -1,7 +1,7 @@
 /*
 Theme Name: Gridzone
 Theme URI: http://alx.media/themes/gridzone/
-Version: 1.3.9
+Version: 1.4.0
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.0
@@ -213,7 +213,7 @@ input, textarea, button, select, label { font-family: inherit; }
 
 .themeform.searchform div { position: relative; }
 .themeform.searchform div input { background: #fff; padding-left: 26px; line-height: 20px; }
-.themeform.searchform div:after { color: #ccc; line-height: 24px; font-size: 14px; content: "\f002"; position: absolute; left: 10px; top: 6px; font-family: "Font Awesome 5 Free"; font-weight: 900; }
+.themeform.searchform div:after { color: #ccc; line-height: 24px; font-size: 14px; content: "\f002"; position: absolute; left: 10px; top: 6px; font-family: "Font Awesome 6 Free"; font-weight: 900; }
 
 /*  base : entry
 /* ------------------------------------ */
@@ -228,7 +228,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .entry address { margin-bottom: 1em; }
 .entry blockquote { position: relative; color: #777; font-style: italic; margin: 0 0 20px 0; padding-left: 50px; }
 .entry blockquote p { font-weight: 400; color: #444; margin-bottom: 0.75em; }
-.entry blockquote:before { content: "\f10d"; color: #ccc; font-size: 32px; font-style: normal; font-family: "Font Awesome 5 Free"; font-weight: 900; text-align: center; position: absolute; left: 0; top: 0; }
+.entry blockquote:before { content: "\f10d"; color: #ccc; font-size: 32px; font-style: normal; font-family: "Font Awesome 6 Free"; font-weight: 900; text-align: center; position: absolute; left: 0; top: 0; }
 .entry blockquote.twitter-tweet:before { content: "\f099"; }
 .entry code, .entry pre { font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace; font-size: 11px; }
 .entry pre { background: url(img/pre.png) repeat top; padding: 18px 20px; margin: 30px 0; border: 1px solid #ddd; line-height: 19px; white-space: pre-wrap; word-wrap: break-word; overflow-x: auto; overflow-y: hidden; }
@@ -623,7 +623,7 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.03); }
 .pagination a { font-size: 18px; font-weight: 600; }
 .pagination ul { text-align: center; font-size: 0; }
 .pagination ul li { display: inline-block; float: none; }
-.pagination ul li a:before { font-family: "Font Awesome 5 Free"; font-weight: 900; font-size: 52px; line-height: 100px; display: block; }
+.pagination ul li a:before { font-family: "Font Awesome 6 Free"; font-weight: 900; font-size: 52px; line-height: 100px; display: block; }
 .pagination ul li.next a:before { content: "\f105"; }
 .pagination ul li.prev a:before { content: "\f104"; }
 .pagination ul li a { display: inline-block; font-size: 0; margin: 10px; width: 100px; height: 100px; border-radius: 10px; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
@@ -865,8 +865,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .slick-image-slide-nav .slick-next:focus { background: #e5e5e5; }
 .slick-image-slide-nav .slick-prev { left: 0; }
 .slick-image-slide-nav .slick-next { right: 0; }
-.slick-image-slide-nav .slick-prev:before { color: #000; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053"; }
-.slick-image-slide-nav .slick-next:before { color: #000; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054"; }
+.slick-image-slide-nav .slick-prev:before { color: #000; font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f053"; }
+.slick-image-slide-nav .slick-next:before { color: #000; font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f054"; }
 .slick-image-slide-dots { background: red; }
 .slick-image-slide-dots .slick-dots li { height: 10px; width: 10px; margin: 0 3px; }
 .slick-image-slide-dots .slick-dots li button { background: rgba(0,0,0,0.2); height: 10px; width: 10px; border-radius: 100%; text-indent: -9999px; overflow: hidden; }
@@ -1040,7 +1040,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 /* ------------------------------------ */
 .author-bio { background: #f5f5f5; padding: 0 20px 20px; border-radius: 10px; position: relative; color: #777; margin: 40px 0; text-align: center; }
 .author-bio .bio-avatar { width: 64px; height: auto; position: relative; display: inline-block; margin-top: -32px; }
-.author-bio .bio-avatar:after { background: #333; position: absolute; right: 0; bottom: 0; padding: 4px 4px; content: "\f303"; color: #fff; font-size: 10px; line-height: 12px; width: 12px; font-style: normal; font-family: "Font Awesome 5 Free"; font-weight: 900; text-align: center; border-radius: 100%; }
+.author-bio .bio-avatar:after { background: #333; position: absolute; right: 0; bottom: 0; padding: 4px 4px; content: "\f303"; color: #fff; font-size: 10px; line-height: 12px; width: 12px; font-style: normal; font-family: "Font Awesome 6 Free"; font-weight: 900; text-align: center; border-radius: 100%; }
 .author-bio .bio-avatar img { display: block; width: 100%; height: auto; border-radius: 100%; }
 .author-bio p { margin-bottom: 8px; }
 .author-bio .bio-name { color: #333; font-size: 19px; font-weight: 600; margin: 10px 0; }
@@ -1110,7 +1110,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .widget > ul li:before,
 .widget > ul li a:before,
 .widget > div > ul li a:before,
-.widget_calendar caption:before { font-family: "Font Awesome 5 Free"; font-weight: 900; font-size: 12px; margin-right: 6px; color: #ccc; display: inline-block!important; width: 1em; text-align: center; }
+.widget_calendar caption:before { font-family: "Font Awesome 6 Free"; font-weight: 900; font-size: 12px; margin-right: 6px; color: #ccc; display: inline-block!important; width: 1em; text-align: center; }
 .widget > ul li a:hover:before { color: #999; }
 
 .widget_archive > ul > li a:before { content: "\f073"; } 
@@ -1368,7 +1368,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .commentlist .fn, .pinglist .ping-link { color: #333; font-size: 13px; font-style: normal; font-weight: 600; }
 .commentlist .says { display: none; }
 .commentlist .avatar { position: absolute; left: -60px; top: 0; width: 48px; height: 48px; border-radius: 100%; }
-.commentlist .comment-meta:before, .pinglist .ping-meta:before { color: #ccc; content: "\f017"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-size: 10px; margin-right: 3px; vertical-align: 4%; } 
+.commentlist .comment-meta:before, .pinglist .ping-meta:before { color: #ccc; content: "\f017"; font-family: "Font Awesome 6 Free"; font-weight: 900; font-size: 10px; margin-right: 3px; vertical-align: 4%; } 
 .commentlist .comment-meta a, .pinglist .ping-meta { color: #aaa; }
 .commentlist .reply { font-size: 13px; line-height: 16px; }
 .commentlist .reply a { color: #aaa; }
@@ -1387,7 +1387,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 /* post author & admin comment */
 .commentlist li.bypostauthor > .comment-body:after,
-.commentlist li.comment-author-admin > .comment-body:after { background: #333; display: block; position: absolute; content: "\f303"; color: #fff; line-height: 12px; width: 12px; font-style: normal; font-family: "Font Awesome 5 Free"; font-weight: 900; text-align: center; }
+.commentlist li.comment-author-admin > .comment-body:after { background: #333; display: block; position: absolute; content: "\f303"; color: #fff; line-height: 12px; width: 12px; font-style: normal; font-family: "Font Awesome 6 Free"; font-weight: 900; text-align: center; }
 .commentlist li.comment-author-admin > .comment-body:after { content: "\f005"; /* star for admin */ }
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after { top: 32px; left: -28px; font-size: 8px; padding: 2px; border-radius: 100%; }
@@ -1444,7 +1444,7 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .wp-pagenavi a,
 .wp-pagenavi span { color: #aaa; font-size: 16px; padding: 9px 14px; display: inline-block; margin: 0 1px 10px; }
 .wp-pagenavi span.pages { font-size: 16px; font-weight: 400; display: block; margin-bottom: 1em!important; border: none!important; }
-.wp-pagenavi span.pages:before { content: "\f15c"; font-family: "Font Awesome 5 Free"; font-weight: 900; margin-right: 6px; }
+.wp-pagenavi span.pages:before { content: "\f15c"; font-family: "Font Awesome 6 Free"; font-weight: 900; margin-right: 6px; }
 .wp-pagenavi span.extend { border: none!important; padding-left: 0; padding-right: 0; }
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
@@ -1460,7 +1460,7 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .infinite-scroll .infinite-wrap { }
 .infinite-scroll #infinite-handle { position: absolute; bottom: -100px; width: 100%; text-align: center; }
 .infinite-scroll #infinite-handle span { background: #fff; display: inline-block!important; box-shadow: 0 0 10px rgba(0,0,0,0.05); font-size: 18px; color: #333; font-weight: 600; padding: 20px 26px; border-radius: 10px; }
-.infinite-scroll #infinite-handle span:before { font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; content: "\f067"; margin-right: 10px; }
+.infinite-scroll #infinite-handle span:before { font-family: "Font Awesome 6 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; content: "\f067"; margin-right: 10px; }
 .infinite-scroll .content { padding-bottom: 160px; }
 .infinite-scroll .pagination { display: none; }
 
