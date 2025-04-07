@@ -8,7 +8,7 @@ Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left
 
 == Description ==
 
-Gridzone is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Gridzone
+Gridzone is a flexible portfolio theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. Demo: https://demo.agnarson.com/?theme=Gridzone
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Gridzone is a flexible portfolio theme with plenty of options. It is optimized f
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
